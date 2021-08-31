@@ -1,0 +1,31 @@
+{
+    "title":"redhat i18n",
+    "mission": "Hello World!!!",
+    "section1":"Some of our work",
+    "projects":[
+        {
+            "name":"ibus",
+            "slug":"tool",
+            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link":"https://www.redhat.com"
+        },
+        {
+            "name":"ibus-typing-booster",
+            "slug":"tool",
+            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link":"https://www.redhat.com"
+        },
+        {
+            "name":"transtats",
+            "slug":"tool",
+            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link":"https://www.redhat.com"
+        },
+        {
+            "name":"liberation-fonts",
+            "group":"fonts",
+            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "link":"https://www.redhat.com"
+        }
+    ] 
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid p-5 bg-secondary text-white text-center">
+    <h1>{{ title }}</h1>
+    <p>{{ mission }}</p> 
+</div>
+
+<div class="container mt-5">
+    <h3 class="text-center">{{ section1 }}</h3></br>
+    <div class="row">
+        {% for project in projects %}
+        <div class="card col-sm-4" >
+            <div class="card-body">
+                <a href="{{ project.link }}"><h5 class="card-title">{{ project.name }}</h5></a>
+                <h6 class="card-subtitle mb-2 text-muted">{{ project.slug }}</h6>
+                <p class="card-text">{{ project.desc }}</p>
+            </div>
+        </div>
+        {% endfor%}
+    </div> <!-- row -->
+</div> <!-- container -->
+
+<!-- Copyright -->
+<footer class="bg-secondary text-center text-white">
+    <span class="text-center p-3" >© 2021 Copyright</span>
+</footer>
+{% endblock %}

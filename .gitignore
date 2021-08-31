@@ -1,0 +1,5 @@
+public/
+env/
+venv/
+old_index.html
+.vscode
