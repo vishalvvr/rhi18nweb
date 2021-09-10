@@ -1,31 +1,87 @@
 {
-    "title":"redhat i18n",
+    "title":"RED HAT i18n PROJECTS",
     "mission": "Hello World!!!",
-    "section1":"Some of our work",
-    "projects":[
-        {
-            "name":"ibus",
-            "slug":"tool",
-            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "link":"https://www.redhat.com"
+    "projectgroups":[
+        {   "groupname":"Input Method",
+            "projects":[
+                {
+                    "name":"ibus",
+                    "slug":"tool",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"ibus-typing-booster",
+                    "slug":"tool",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                }
+            ]
         },
-        {
-            "name":"ibus-typing-booster",
-            "slug":"tool",
-            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "link":"https://www.redhat.com"
+        {   "groupname":"Fonts",
+            "projects":[
+                {
+                    "name":"liberation-fonts",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"liberation-narrow-fonts",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"lohit",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"Noto-fonts",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"liberation-narrow-fonts",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"lohit",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"Noto-fonts",
+                    "slug":"fonts",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                }
+            ]
         },
-        {
-            "name":"transtats",
-            "slug":"tool",
-            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "link":"https://www.redhat.com"
-        },
-        {
-            "name":"liberation-fonts",
-            "group":"fonts",
-            "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "link":"https://www.redhat.com"
+        {   "groupname":"Tools and automation",
+            "projects":[
+                {
+                    "name":"Transtats",
+                    "slug":"tool",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"xyzzz",
+                    "slug":"tool",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                }
+            ]
         }
-    ] 
+    ],
+    "styling":{
+        "topcolour":"#c00"
+    }
 }
