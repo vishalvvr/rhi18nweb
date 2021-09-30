@@ -1,66 +1,50 @@
 {
-    "title":"RED HAT i18n PROJECTS",
-    "mission": "Hello World!!!",
+    "title":"Red Hat i18n Projects",
+    "mission": "these are some of the i18n projects we help to maintain",
+    "styling":{
+        "topcolour":"#c00"
+    },
     "projectgroups":[
-        {   "groupname":"Input Method",
+        {   "groupname":"Input Methods",
             "projects":[
                 {
                     "name":"ibus",
-                    "slug":"tool",
+                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+                    "link":"https://www.redhat.com"
+                },
+                {
+                    "name":"libpinyin",
                     "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                     "link":"https://www.redhat.com"
                 },
                 {
                     "name":"ibus-typing-booster",
-                    "slug":"tool",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
+                    "desc":"Faster typing by context sensitive completion.",
+                    "link":"https://mike-fabian.github.io/ibus-typing-booster/"
+                },
+                {
+                    "name":"ibus-table",
+                    "desc":"Table based input methods for IBus",
+                    "link":"http://mike-fabian.github.io/ibus-table/"
                 }
             ]
         },
         {   "groupname":"Fonts",
             "projects":[
                 {
-                    "name":"liberation-fonts",
-                    "slug":"fonts",
+                    "name":"Fontconfig",
                     "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
                     "link":"https://www.redhat.com"
                 },
                 {
-                    "name":"liberation-narrow-fonts",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
+                    "name":"Liberation fonts",
+                    "desc":"Liberation is the collective name of four TrueType font families: Liberation Sans, Liberation Sans Narrow, Liberation Serif, and Liberation Mono.",
+                    "link":"https://github.com/liberationfonts"
                 },
                 {
-                    "name":"lohit",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
-                },
-                {
-                    "name":"Noto-fonts",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
-                },
-                {
-                    "name":"liberation-narrow-fonts",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
-                },
-                {
-                    "name":"lohit",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
-                },
-                {
-                    "name":"Noto-fonts",
-                    "slug":"fonts",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
+                    "name":"Lohit fonts",
+                    "desc":"Lohit is a font family designed to cover Indic scripts.",
+                    "link":"https://github.com/lohit-fonts"
                 }
             ]
         },
@@ -68,20 +52,10 @@
             "projects":[
                 {
                     "name":"Transtats",
-                    "slug":"tool",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
-                },
-                {
-                    "name":"xyzzz",
-                    "slug":"tool",
-                    "desc":"Some quick example text to build on the card title and make up the bulk of the card's content.",
-                    "link":"https://www.redhat.com"
+                    "desc":"Help track translations and automate workflow.",
+                    "link":"https://transtats.org/"
                 }
             ]
         }
-    ],
-    "styling":{
-        "topcolour":"#c00"
-    }
+    ]
 }

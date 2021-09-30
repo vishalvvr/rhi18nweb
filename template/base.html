@@ -4,17 +4,18 @@
   <title>{{ title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../rhi18nweb/tree/gh-pages/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../rhi18nweb/tree/gh-pages/css/style.css" rel="stylesheet">
-  <script src="../rhi18nweb/tree/gh-pages/js/bootstrap.bundle.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass" rel="stylesheet">
-
+  <link rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon">
 </head>
 <body>
-{% block content %}
-
-{% endblock %}
+  <font face='Overpass'>
+    {% block content %}
+    {% endblock %}
+  </font>
 </body>
 </html>

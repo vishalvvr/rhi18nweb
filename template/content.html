@@ -2,23 +2,14 @@
 
 {% block content %}
 
-<style>
-    .cheader{
-        font-family: 'Overpass', sans-serif; 
-        background-image:url('images/navbar.png');  
-        background-size: cover;
-    }    
-</style>
-
 <div class="container-fluid p-5 text-white text-center" 
         style="background-color: {{ styling.topcolour }};">
 
-<!-- <div class="container-fluid p-5 text-white text-center cheader"> -->
     <h1 style="font-weight: 600;font-size: 3rem;letter-spacing: 0.21em;">{{ title }}</h1>
     <p>{{ mission }}</p> 
 </div>
 
-<div class="container mt-5" style="font-family: 'Overpass', sans-serif;">
+<div class="container mt-5">
     
     {% for group in projectgroups %}
 
@@ -27,7 +18,6 @@
             {% for project in group.projects %}
             <div class="col-sm-4">
                 <div class="card" style="margin:0.3rem;">
-                    <!-- <div class="card-header" style="background-color:{{ styling.topcolour }}; "></div> -->
                     <div class="card-header" >
                         <a href="{{ project.link }}">
                             <h5 class="card-title">{{ project.name }}</h5>
@@ -37,10 +27,10 @@
                         <h6 class="card-subtitle mb-2 text-muted">{{ project.slug }}</h6>
                         <p class="card-text">{{ project.desc }}</p>
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div> <!-- col -->
             {% endfor%}
-        </div> <!-- row -->
+        </div> <!-- card-group -->
     </br>
     <hr>
     {% endfor%}
